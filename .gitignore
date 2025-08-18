@@ -8,5 +8,13 @@
 *.db
 *.egg-info
 *.coverage
+.pytest_cache
+.tox
+dist
+build
 tethys_datasets/temp/*
-tethys_datasets/tests/test_config.py
+tests/test_config.py
+.vscode
+
+# setuptools_scm generated version file
+tethys_dataset_services/_version.py
